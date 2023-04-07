@@ -1,45 +1,42 @@
 <template>
     <div>
-         
-      <div class="py-5 bg-warning">
+
+      <div class="py-4 bg-warning">
         <div class="container text-center">
-          <h3 calss="contactus">Contact Us</h3>
+          <h3 class="profile">profile</h3>
         </div>
       </div>
-      <ContactUs/>
-  
+      <profile/>
+      
     </div>
-  
 </template>
 
 <script>
-import ContactUs from '~/components/ContactUs.vue'
+import profile from '~/components/profile.vue'
 export default {
-    name:'contact',
-    components:{ContactUs},
+    name:'search',
+    comments:{profile},
     head() {
       return {
-        title:'Contact Us',
+        title:'profile',
         meta: [
           {
             hid: 'description',
             name: 'description',
-            content: 'Contact Us'
+          
           },
           {
             hid: 'keywords',
             name: 'keywords',
-            content: 'Contact Us'
+            content: 'Home page'
           }
         ]
       }
     }
-
 }
 </script>
-<style>
-.contactus{
-     text-align: center;
-}
-</style>
 
+<style>
+
+
+</style>

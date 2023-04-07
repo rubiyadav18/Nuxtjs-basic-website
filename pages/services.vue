@@ -3,7 +3,7 @@
       
       <div class="py-4 bg-warning">
         <div class="container text-center">
-          <h3> Services Us</h3>
+          <h3 class="Services_Us"> Services Us</h3>
         </div>
       </div>
   
@@ -37,3 +37,8 @@ export default {
 
 }
 </script>
+<style>
+.Services_Us{
+  text-align: center;
+}
+</style>

@@ -3,7 +3,7 @@
 
       <div class="py-4 bg-warning">
         <div class="container text-center">
-          <h3> About Us</h3>
+          <h3 class="AboutUS"> About Us</h3>
         </div>
       </div>
       <Aboutus/>
@@ -33,8 +33,14 @@ export default {
         ]
       }
     }
-
-
 }
 </script>
 
+<style>
+
+.AboutUS{
+ 
+   text-align: center;
+ 
+}
+</style>
